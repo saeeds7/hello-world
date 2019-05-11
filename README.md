@@ -543,28 +543,7 @@ print(sqrt(RSME_MLP))
 ##print('this is the score using SVR algorithm')
 ##
 ##
-##from sklearn.svm import SVR
-##clf_SVR=SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1,
-##    gamma='auto_deprecated', kernel='rbf', max_iter=-1, shrinking=True,
-##    tol=0.001, verbose=False)
-##clf_SVR.fit(train, train_labels)  
-##score_SVR=cross_val_score(clf_SVR, test, test_labels)
-##print(score_SVR)
-#
-#
-#
-##
-###
-##print('this is the score using Bayesian ARD regression algorithm')
-##
-##ARD = linear_model.ARDRegression()
-##ARD.fit(train, train_labels)
-##ARD_score=cross_val_score(ARD, test, test_labels)
-##print(ARD_score)
-##
-####
-####
-#
+
 #
 #
 #
